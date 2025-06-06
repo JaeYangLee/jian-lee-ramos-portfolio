@@ -4,11 +4,11 @@ function MyPortfolioPageOne() {
   return (
     <>
       <div className="w-screen h-screen flex justify-center items-center bg-[#31302D]">
-        <div className="flex flex-col justify-start items-center">
+        <div className="flex flex-col justify-self-start">
           <h1>JIAN LEE RAMOS</h1>
           <div className="flex flex-col  md:flex-row lg:flex-row items-start">
-            <div className="flex flex-col items-center">
-              <h2>FRONTEND DEVELOPER</h2>
+            <div className="flex flex-col">
+              <h2 className="justify-self-start">FRONTEND DEVELOPER</h2>
               <div className="flex flex-row items-center">
                 <button>
                   <svg
@@ -61,7 +61,11 @@ function MyPortfolioPageOne() {
                 </button>
               </div>
             </div>
-            <img src="public/assets/JianImage.png" alt="Jian Lee Ramos Image" />
+            <img
+              src="public/assets/JianImage.png"
+              alt="Jian Lee Ramos Image"
+              className="justify-self-center w-40"
+            />
           </div>
         </div>
       </div>
