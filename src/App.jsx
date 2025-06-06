@@ -1,10 +1,10 @@
 import "./index.css";
+import MyPortfolioPageOne from "./pages/MyPortfolioPageOne";
 
 function App() {
   return (
     <>
-      <h2>Hello World!</h2>
-      <h2></h2>
+      <MyPortfolioPageOne />
     </>
   );
 }
