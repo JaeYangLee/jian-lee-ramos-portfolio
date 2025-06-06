@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 
 function MyPortfolioPageOne() {
   const handleGitHubClick = () => {
@@ -14,12 +14,12 @@ function MyPortfolioPageOne() {
     <>
       <div className="w-screen h-screen flex justify-center items-center bg-[#31302D]">
         <div className="flex flex-col items-center gap-2 font-bold md:items-start font-antonio">
-          <h1 className="text-5xl md:text-7xl lg:text-8xl xl:text-9xl text-[#C6BF8B]">
+          <h1 className="text-5xl select-none md:text-7xl lg:text-8xl xl:text-9xl text-[#C6BF8B]">
             JIAN LEE RAMOS
           </h1>
           <div className="flex flex-col md:gap-4 lg:gap-4 md:flex-row lg:flex-row">
             <div className="flex flex-col items-center md:items-start md:gap-48 lg:gap-64 xl:gap-76">
-              <h2 className="mt-1 text-2xl md:text-4xl lg:text-5xl xl:text-6xl text-[#F9EEE8]">
+              <h2 className="mt-1 text-2xl select-none md:text-4xl lg:text-5xl xl:text-6xl text-[#F9EEE8]">
                 FRONTEND DEVELOPER
               </h2>
               <div className="flex flex-row items-start gap-4 xl:gap-8">

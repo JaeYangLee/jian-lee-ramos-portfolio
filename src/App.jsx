@@ -1,10 +1,18 @@
 import "./index.css";
 import MyPortfolioPageOne from "./pages/MyPortfolioPageOne";
+import MyPortfolioPageTwo from "./pages/MyPortfolioPageTwo";
 
 function App() {
   return (
     <>
-      <MyPortfolioPageOne />
+      <div className="overflow-x-hidden">
+        <section>
+          <MyPortfolioPageOne />
+        </section>
+        <section>
+          <MyPortfolioPageTwo />
+        </section>
+      </div>
     </>
   );
 }
