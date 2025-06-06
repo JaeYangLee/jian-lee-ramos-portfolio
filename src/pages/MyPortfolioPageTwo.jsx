@@ -21,13 +21,14 @@ function MyPortfolioPageTwo() {
             featureOne="‣ Augmented Reality Plant Recognition with detailed botanical Information."
             featureTwo="‣ Augmented Reality Disease diagnosis with detailed botanical Information."
             featureThree="‣ Informative Plant Care and Medical Guide."
-            techStackOne="•JAVA"
-            techStackTwo="•Android Studio"
-            techStackThree="•Figma"
+            techStackOne="• JAVA"
+            techStackTwo="• Android Studio"
+            techStackThree="• Figma"
+            projectLink="https://github.com/JaeYangLee/PLANTITOTITA"
           />
           <ProjectDetailCard
             projectLogo="assets/CGISLogo.png"
-            projectName="CGWCEISC INVENTORY"
+            projectName="CGWCEISC INVENTORY SYSTEM"
             projectDescription="A web based inventory management system for PCG’s Storage and Accountability Officer."
             featureOne="‣ User Authentication and Roles."
             featureTwo="‣ Real-Time Inventory Tracking."
@@ -35,9 +36,11 @@ function MyPortfolioPageTwo() {
             featureFour="‣ Inventory Logs & History."
             featureFive="‣ Search and Filter Options."
             featureSix="‣ Inventory Reports Generation."
-            techStackOne="•JAVA"
-            techStackTwo="•Android Studio"
-            techStackThree="•Figma"
+            techStackOne="• React"
+            techStackTwo="• TailwindCSS"
+            techStackFour="• Figma"
+            techStackThree="• MySQL"
+            projectLink="https://github.com/JaeYangLee/pcg-inventory-system"
           />
         </div>
       </div>
