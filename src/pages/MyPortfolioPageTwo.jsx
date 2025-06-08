@@ -14,7 +14,7 @@ function MyPortfolioPageTwo() {
             and contributed to as a developer.
           </h3>
         </div>
-        <div className="flex flex-col gap-4 lg:flex-row xl:flex-row">
+        <div className="flex flex-col gap-4 lg:flex-row xl:flex-row text-[#31302D]">
           <ProjectDetailCard
             projectLogo="assets/plantitotitaLogo.svg"
             projectName="PLANTITOTITA"
