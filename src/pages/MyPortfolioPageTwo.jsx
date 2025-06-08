@@ -9,8 +9,9 @@ function MyPortfolioPageTwo() {
           <h1 className="text-center text-4xl md:text-6xl lg:text-7xl xl:text-8xl font-bold text-[#31302D]">
             MY PROJECTS
           </h1>
-          <h3 className="font-mono text-xs text-center text-[#31302D]">
-            Some of the most interesting projects that I've made.
+          <h3 className="font-mono text-xs text-center text-[#31302D] xl:text-sm">
+            Here are some of the most exciting software projects I’ve worked on
+            and contributed to as a developer.
           </h3>
         </div>
         <div className="flex flex-col gap-4 lg:flex-row xl:flex-row">

@@ -28,7 +28,7 @@ function ProjectDetailCard({
             <img src={projectLogo} alt="Project Logo" className="w-16" />
           </div>
           <div className="flex flex-col gap-1">
-            <h1 className="text-lg md:text-2xl">{projectName}</h1>
+            <h1 className="text-lg md:text-3xl">{projectName}</h1>
             <h2 className="font-mono text-[8px] md:text-xs">
               {projectDescription}
             </h2>

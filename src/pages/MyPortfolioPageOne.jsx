@@ -4,7 +4,9 @@ function MyPortfolioPageOne() {
   const handleGitHubClick = () => {
     window.open("https://github.com/JaeYangLee");
   };
-  const handleEmailCopyClick = () => {};
+  const handleEmailCopyClick = () => {
+    navigator.clipboard.writeText("ramosjianlee@gmail.com");
+  };
   const handleInstagramClick = () => {
     window.open(
       "https://www.instagram.com/jlanl33?utm_source=ig_web_button_share_sheet&igsh=cXNod2Z3NWkxY2Rh"
@@ -46,6 +48,7 @@ function MyPortfolioPageOne() {
                     alt="Email Icon"
                     fill="currentColor"
                     className="w-8 md:w-8 xl:w-12 text-[#F9EEE8] transition-transform transform ease-in duration-200 cursor-pointer hover:-translate-y-1 hover:scale-150 active:text-[#b3a096] active:scale-125 active:duration-100"
+                    onClick={handleEmailCopyClick}
                   >
                     <path d="M6.25 36.1212V71.875C6.25 78.7786 11.8464 84.375 18.75 84.375H81.25C88.1536 84.375 93.75 78.7786 93.75 71.875V36.1212L56.5512 59.0128C52.5336 61.4852 47.4664 61.4852 43.4488 59.0128L6.25 36.1212Z" />
                     <path d="M93.75 28.7826V28.125C93.75 21.2214 88.1536 15.625 81.25 15.625H18.75C11.8464 15.625 6.25 21.2214 6.25 28.125V28.7826L46.7244 53.6899C48.7332 54.9261 51.2668 54.9261 53.2756 53.6899L93.75 28.7826Z" />
