@@ -3,14 +3,14 @@ import React from "react";
 function MyPortfolioPageFour() {
   return (
     <>
-      <div className="p-12 md:p-24 justify-center items-center w-screen min-h-screen bg-[#F9EEE8] font-antonio text-[#31302D]">
-        <h1 className="text-2xl font-bold text-center md:text-6xl lg:text-7xl lg:8xl">
+      <div className="p-12 md:p-24 xl:p-48 justify-center items-center w-screen min-h-screen bg-[#F9EEE8] font-antonio text-[#31302D]">
+        <h1 className="text-2xl font-bold md:text-left lg:text-left xl:text-left md:text-6xl lg:text-7xl xl:text-8xl">
           MY TECHNOLOGY SKILLSET
         </h1>
-        <p className="mt-8 font-mono text-xs text-center md:mt-8 md:text-sm lg:text-lg">
+        <p className="mt-8 font-mono text-xs text-left md:mt-8 md:text-sm lg:text-lg">
           These are the technologies I have experience with.
         </p>
-        <div className="flex flex-col items-center justify-center gap-4 mt-12 text-lg lg:text-2xl xl:text-3xl md:flex-row">
+        <div className="flex flex-col items-center justify-start gap-4 mt-12 text-lg lg:text-2xl xl:text-3xl md:flex-row">
           <div className="p-4 flex flex-row items-center justify-center gap-2 bg-[#C6BF8B] border-transparent rounded-2xl">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -60,7 +60,7 @@ function MyPortfolioPageFour() {
             <p>Javascript</p>
           </div>
         </div>
-        <div className="flex flex-col items-center justify-center gap-4 mt-8 text-lg lg:text-2xl xl:text-3xl md:flex-row">
+        <div className="flex flex-col items-center justify-start gap-4 mt-8 text-lg lg:text-2xl xl:text-3xl md:flex-row">
           <div className="p-4 flex flex-row items-center justify-center gap-2 bg-[#C6BF8B] border-transparent rounded-2xl">
             <svg
               xmlns="http://www.w3.org/2000/svg"

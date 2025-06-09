@@ -1,4 +1,5 @@
 import "./index.css";
+import MyPortfolioPageFive from "./pages/MyPortfolioPageFive";
 import MyPortfolioPageFour from "./pages/MyPortfolioPageFour";
 import MyPortfolioPageOne from "./pages/MyPortfolioPageOne";
 import MyPortfolioPageThree from "./pages/MyPortfolioPageThree";
@@ -19,6 +20,9 @@ function App() {
         </section>
         <section>
           <MyPortfolioPageFour />
+        </section>
+        <section>
+          <MyPortfolioPageFive />
         </section>
       </div>
     </>
