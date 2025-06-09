@@ -6,6 +6,7 @@ function MyPortfolioPageOne() {
   };
   const handleEmailCopyClick = () => {
     navigator.clipboard.writeText("ramosjianlee@gmail.com");
+    alert("Email Copied!");
   };
   const handleInstagramClick = () => {
     window.open(

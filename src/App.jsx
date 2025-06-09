@@ -1,3 +1,4 @@
+import MyPortfolioSideBar from "./components/MyPortfolioSideBar";
 import "./index.css";
 import MyPortfolioPageFive from "./pages/MyPortfolioPageFive";
 import MyPortfolioPageFour from "./pages/MyPortfolioPageFour";
@@ -9,6 +10,10 @@ function App() {
   return (
     <>
       <div className="overflow-x-hidden">
+        <div className="fixed right-0 z-50">
+          <MyPortfolioSideBar />
+        </div>
+
         <section>
           <MyPortfolioPageOne />
         </section>
