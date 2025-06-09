@@ -1,6 +1,6 @@
 import React from "react";
 
-function MyPortfolioSideBar() {
+function MyPortfolioSideBar({ pageNumber }) {
   return (
     <>
       <div className="w-[12px] md:w-[30px] lg:w-[40px] bg-[whitesmoke] min-h-screen">
@@ -51,7 +51,7 @@ function MyPortfolioSideBar() {
           <br />
           <br />
           <div className="fixed bottom-0 flex flex-col w-[10px] md:w-[30px] lg:w-[40px] h-[30px] xl:h-[38px] items-center justify-center font-mono font-bold text-[#31302D] text-[8px] md:text-xs lg:text-lg bg-[#F9EEE8]">
-            <p>0</p>
+            <p>0{pageNumber}</p>
           </div>
         </div>
       </div>
