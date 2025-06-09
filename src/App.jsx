@@ -10,7 +10,7 @@ function App() {
   return (
     <>
       <div className="overflow-x-hidden">
-        <div className="fixed right-0 z-50">
+        <div className="fixed right-0 z-60">
           <MyPortfolioSideBar />
         </div>
 

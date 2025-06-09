@@ -1,12 +1,14 @@
-import React from "react";
+import React, { useState } from "react";
+import MyPortfolioSuccessModal from "../components/MyPortfolioSuccessModal";
 
 function MyPortfolioPageFive() {
+  const [isSuccessCopyModalOpen, setSuccessCopyModalOpen] = useState(false);
   const handleGitHubClick = () => {
     window.open("https://github.com/JaeYangLee");
   };
-  const handleGmailCopyClick = () => {
+  const handleEmailCopyClick = () => {
     navigator.clipboard.writeText("ramosjianlee@gmail.com");
-    alert("Email Copied!");
+    setSuccessCopyModalOpen(true);
   };
   const handleInstagramClick = () => {
     window.open(
@@ -79,7 +81,7 @@ function MyPortfolioPageFive() {
               fill="none"
               alt="GmailIcon"
               className="w-8"
-              onClick={handleGmailCopyClick}
+              onClick={handleEmailCopyClick}
             >
               <path
                 d="M6.25 36.1212V71.875C6.25 78.7786 11.8464 84.375 18.75 84.375H81.25C88.1536 84.375 93.75 78.7786 93.75 71.875V36.1212L56.5512 59.0128C52.5336 61.4852 47.4664 61.4852 43.4488 59.0128L6.25 36.1212Z"
@@ -113,6 +115,11 @@ function MyPortfolioPageFive() {
           © 2025 Jian Lee Ramos. All rights reserved.
         </footer>
       </div>
+
+      <MyPortfolioSuccessModal
+        isSuccessCopyModalOpen={isSuccessCopyModalOpen}
+        onSuccessCopyModalClose={() => setSuccessCopyModalOpen(false)}
+      />
     </>
   );
 }

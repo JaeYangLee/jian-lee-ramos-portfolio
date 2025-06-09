@@ -5,7 +5,7 @@ function MyPortfolioPageTwo() {
   return (
     <>
       <div className="p-8 flex flex-col justify-center items-center w-screen min-h-screen font-antonio bg-[#F9EEE8]">
-        <div className="flex flex-col items-center justify-center gap-4 p-8">
+        <div className="flex flex-col items-center justify-center gap-8 p-8">
           <h1 className="text-center text-4xl md:text-6xl lg:text-7xl xl:text-8xl font-bold text-[#31302D]">
             MY PROJECTS
           </h1>

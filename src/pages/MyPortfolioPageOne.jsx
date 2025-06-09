@@ -1,12 +1,14 @@
-import React from "react";
+import React, { useState } from "react";
+import MyPortfolioSuccessModal from "../components/MyPortfolioSuccessModal";
 
 function MyPortfolioPageOne() {
+  const [isSuccessCopyModalOpen, setSuccessCopyModalOpen] = useState(false);
   const handleGitHubClick = () => {
     window.open("https://github.com/JaeYangLee");
   };
   const handleEmailCopyClick = () => {
     navigator.clipboard.writeText("ramosjianlee@gmail.com");
-    alert("Email Copied!");
+    setSuccessCopyModalOpen(true);
   };
   const handleInstagramClick = () => {
     window.open(
@@ -23,7 +25,7 @@ function MyPortfolioPageOne() {
           <div className="flex flex-col md:gap-4 lg:gap-4 md:flex-row lg:flex-row">
             <div className="flex flex-col items-center md:items-start md:gap-48 lg:gap-64 xl:gap-76">
               <h2 className="mt-1 text-2xl select-none md:text-4xl lg:text-5xl xl:text-6xl text-[#F9EEE8]">
-                FRONTEND DEVELOPER
+                REACT FRONTEND DEVELOPER
               </h2>
               <div className="flex flex-row items-start gap-4 xl:gap-8">
                 <button>
@@ -79,6 +81,11 @@ function MyPortfolioPageOne() {
           </div>
         </div>
       </div>
+
+      <MyPortfolioSuccessModal
+        isSuccessCopyModalOpen={isSuccessCopyModalOpen}
+        onSuccessCopyModalClose={() => setSuccessCopyModalOpen(false)}
+      />
     </>
   );
 }
