@@ -22,9 +22,10 @@ function MyPortfolioPageTwo() {
             featureOne="‣ Augmented Reality Plant Recognition with detailed botanical Information."
             featureTwo="‣ Augmented Reality Disease diagnosis with detailed botanical Information."
             featureThree="‣ Informative Plant Care and Medical Guide."
-            techStackOne="• JAVA"
+            techStackOne="• Java"
             techStackTwo="• Android Studio"
-            techStackThree="• Figma"
+            techStackThree="• Java Firebase"
+            techStackFour="• Figma"
             projectLink="https://github.com/JaeYangLee/PLANTITOTITA"
           />
           <ProjectDetailCard
@@ -37,10 +38,11 @@ function MyPortfolioPageTwo() {
             featureFour="‣ Inventory Logs & History."
             featureFive="‣ Search and Filter Options."
             featureSix="‣ Inventory Reports Generation."
-            techStackOne="• React"
+            techStackOne="• React.js"
             techStackTwo="• TailwindCSS"
-            techStackFour="• Figma"
-            techStackThree="• MySQL"
+            techStackThree="• Node.js"
+            techStackFour="• MySQL"
+            techStackFive="• Figma"
             projectLink="https://github.com/JaeYangLee/pcg-inventory-system"
           />
         </div>

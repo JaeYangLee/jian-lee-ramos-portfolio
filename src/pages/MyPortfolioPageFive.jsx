@@ -111,7 +111,7 @@ function MyPortfolioPageFive() {
             </svg>
           </button>
         </div>
-        <footer className="mt-12 flex flex-row justify-end items-center font-mono text-[8px] text-[#F9EEE8]/50 lg:text-md xl:text-md ">
+        <footer className="mt-12 flex flex-row justify-end items-center font-mono text-[8px] text-[#F9EEE8]/50 lg:text-xs xl:text-xs ">
           © 2025 Jian Lee Ramos. All rights reserved.
         </footer>
       </div>
