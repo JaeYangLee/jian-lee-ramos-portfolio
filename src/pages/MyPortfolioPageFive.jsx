@@ -34,7 +34,7 @@ function MyPortfolioPageFive() {
           onClick={() => {
             const link = document.createElement("a");
             link.href = "/assets/jian-lee-ramos-frontend-dev-resume.pdf";
-            link.download = "jian-lee-ramos-resume.pdf";
+            link.download = "jian-lee-ramos-resume";
             link.click();
           }}
         >
