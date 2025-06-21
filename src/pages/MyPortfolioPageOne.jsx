@@ -3,6 +3,7 @@ import MyPortfolioSuccessModal from "../components/MyPortfolioSuccessModal";
 
 function MyPortfolioPageOne() {
   const [isSuccessCopyModalOpen, setSuccessCopyModalOpen] = useState(false);
+
   const handleGitHubClick = () => {
     window.open("https://github.com/JaeYangLee");
   };
