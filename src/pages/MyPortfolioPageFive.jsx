@@ -33,7 +33,7 @@ function MyPortfolioPageFive() {
           className="p-4 border text-[#F9EEE8] font-mono border-[#F9EEE8] rounded-2xl text-xs flex flex-row justify-center items-center gap-4 xl:text-sm hover:bg-[#201f1c] active:bg-transparent"
           onClick={() => {
             const link = document.createElement("a");
-            link.href = "/assets/jian-lee-ramos-resume.pdf";
+            link.href = "/assets/jian-lee-ramos-frontend-dev-resume.pdf";
             link.download = "jian-lee-ramos-resume";
             link.click();
           }}
