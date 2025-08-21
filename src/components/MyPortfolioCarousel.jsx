@@ -4,19 +4,19 @@ import MyPortfolioProjectCard from "./MyPortfolioProjectCard";
 function MyPortfolioCarousel() {
   return (
     <>
-      <main className="carousel w-full h-full">
+      <main className="w-full h-full carousel">
         <div
           id="slide1"
-          className="carousel-item relative w-full  flex items-center justify-center"
+          className="relative flex flex-col items-center justify-center w-full gap-8 md:flex-row carousel-item"
         >
           <MyPortfolioProjectCard />
-          <div className="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+          <div className="bottom-0 flex flex-row items-center justify-between gap-8 pt-8 transform -translate-y-1/2 md:justify-center md:top-1/2 md:absolute md:gap-120 left-5 right-5">
             <a
               href="#"
               onClick={(e) => {
                 e.preventDefault();
                 document
-                  .getElementById("slide4")
+                  .getElementById("slide2")
                   .scrollIntoView({ behavior: "smooth", block: "nearest" });
               }}
               className="btn btn-circle"
@@ -39,10 +39,10 @@ function MyPortfolioCarousel() {
         </div>
         <div
           id="slide2"
-          className="carousel-item relative w-full flex items-center justify-center"
+          className="relative flex flex-col items-center justify-center w-full gap-8 md:flex-row carousel-item"
         >
           <MyPortfolioProjectCard />
-          <div className="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+          <div className="bottom-0 flex flex-row items-center justify-between gap-8 pt-8 transform -translate-y-1/2 md:justify-center md:top-1/2 md:absolute md:gap-120 left-5 right-5">
             <a
               href="#"
               onClick={(e) => {
@@ -60,10 +60,10 @@ function MyPortfolioCarousel() {
               onClick={(e) => {
                 e.preventDefault();
                 document
-                  .getElementById("slide3")
+                  .getElementById("slide1")
                   .scrollIntoView({ behavior: "smooth", block: "nearest" });
               }}
-              className="hidden btn btn-circle"
+              className="btn btn-circle"
             >
               ❯
             </a>
