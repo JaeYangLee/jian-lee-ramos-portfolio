@@ -1,6 +1,7 @@
 import React from "react";
 import MyPortfolioProjectCard from "../components/MyPortfolioProjectCard";
 import MyPortfolioCarousel from "../components/MyPortfolioCarousel";
+import { img } from "motion/react-client";
 
 function MyPortfolioPageTwo() {
   return (
