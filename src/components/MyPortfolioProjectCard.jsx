@@ -43,7 +43,7 @@ function MyPortfolioProjectCard({
             <li className="p-2 text-xs border rounded-lg">{keyFeatures1}</li>
             <li className="p-2 text-xs border rounded-lg">{keyFeatures2}</li>
             <li className="p-2 text-xs border rounded-lg">{keyFeatures3}</li>
-            <li className="p-2 text-xs border rounded-lg"></li>
+            <li className="p-2 text-xs border rounded-lg">{keyFeatures4}</li>
           </ul>
         </main>
         <hr className="w-full my-1" />
