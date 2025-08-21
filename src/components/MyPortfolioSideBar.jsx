@@ -4,7 +4,7 @@ function MyPortfolioSideBar({ pageNumber }) {
   return (
     <>
       <div className="w-[12px] md:w-[30px] lg:w-[40px] bg-[whitesmoke] min-h-screen">
-        <div className="pt-4 pb-4 h-full flex flex-col items-center justify-center font-mono font-bold text-[8px] xl:text-sm bg-[#C6BF8B]">
+        <div className="pt-4 pb-4 h-full flex flex-col items-center justify-center font-mono font-bold text-[8px] xl:text-sm bg-[#C6BF8B] text-[#31302D]">
           <p>ジ</p>
           <p>ア</p>
           <p>ン</p>
