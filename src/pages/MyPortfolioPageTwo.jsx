@@ -1,5 +1,6 @@
 import React from "react";
 import MyPortfolioProjectCard from "../components/MyPortfolioProjectCard";
+import MyPortfolioCarousel from "../components/MyPortfolioCarousel";
 
 function MyPortfolioPageTwo() {
   return (
@@ -9,14 +10,14 @@ function MyPortfolioPageTwo() {
           <h1 className="text-3xl font-bold text-center md:text-left font-antonio text-[#31302D]">
             MY SOFTWARE DEVELOPMENT PROJECTS
           </h1>
-          <h3 className="hidden font-mono text-sm text-left md:flex">
+          <h3 className="hidden font-mono text-xs text-left md:flex">
             “As a Computer Science graduate, here are some of the projects where
             I got to bring my ideas to life, apply what I’ve learned, and have
             fun building along the way!”
           </h3>
         </header>
         <main className="py-4">
-          <MyPortfolioProjectCard />
+          <MyPortfolioCarousel />
         </main>
       </div>
     </>
