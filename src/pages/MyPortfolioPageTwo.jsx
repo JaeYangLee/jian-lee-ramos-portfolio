@@ -10,7 +10,7 @@ function MyPortfolioPageTwo() {
           <h1 className="text-3xl font-bold text-center md:text-left font-antonio text-[#31302D]">
             MY SOFTWARE DEVELOPMENT PROJECTS
           </h1>
-          <h3 className="hidden font-mono text-xs text-left md:flex">
+          <h3 className="hidden font-mono text-xs text-left md:flex text-[#31302D]">
             “As a Computer Science graduate, here are some of the projects where
             I got to bring my ideas to life, apply what I’ve learned, and have
             fun building along the way!”
